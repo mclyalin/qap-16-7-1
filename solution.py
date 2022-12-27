@@ -15,4 +15,4 @@ with open(path_to_file, encoding='utf-8') as f:
 cats = [ make_cat(item) for item in items ]
 
 for cat in cats:
-  print(f'name: {cat.getName()},\tgender: {cat.getGender()},\tВозраст: {cat.getAge()} лет')
+  print(f'name: {cat.getName()},\tgender: {cat.getGender()},\tage: {cat.getAge()}')
